@@ -33,6 +33,8 @@ Definição geral:
 
 ## Linguagem C
 
+Mais detalhes: [https://docs.python.org/3/reference/expressions.html#lambda](https://docs.python.org/3/reference/expressions.html#lambda)
+
 *C* é uma linguagem compilada de proposito geral bastante usada na criação de programas e drivers para diversos sistemas operacionais e hardwares. É uma linguagem que permite certo controle e acesso aos recursos de um hardware. Ela foi criada em 1972 por Dennis Ritchie na empresa AT&T Bell Labs e foi usada no desenvolvimento do sistema operacional UNIX.
 
 
