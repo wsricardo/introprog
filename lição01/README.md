@@ -76,6 +76,32 @@ Isso porque a multiplicação é efetuada primeiro que a soma e a subtração. A
 Seu Interpretador Como Calculadora
 ----------------------------------
 
+Usando o linux é possível iniciar o interpretador pelo terminal chamando o programa,
 
+```
+	$ python
+```
+
+ou
+
+```
+	$ python3
+```
+
+No Windows é possível chamar pelo menu iniciar.
+
+Algumas operações e cálculos.
+
+```
+# importando algumas funções do módulo de funções matemática
+from math import *
+
+sin(pi/2.0) # seno de um ângulo em radianos 
+
+sqrt(4) # raiz quadrada
+
+2**4 # exponênciação
+
+```
 
 Conteúdo [Extras](https://github.com/wsricardo/introprog/tree/master/li%C3%A7%C3%A3o01/extras) 
