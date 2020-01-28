@@ -6,7 +6,6 @@
 
 
 ## Função Lambda
--------------------
 
 Em Python há um recurso interesante para criar funções através da palavra reservada pela linguagem "lambda".
 
