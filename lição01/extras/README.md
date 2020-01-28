@@ -4,7 +4,9 @@ EXTRAS
 1. Função Lambda Python
 2. Uma Breve Apresentação a Linguagem C
 
+
 1. Função Lambda
+---------------
 
 Em Python há um recurso interesante para criar funções através da palavra reservada pela linguagem "lambda".
 
