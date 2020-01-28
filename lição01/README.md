@@ -13,4 +13,14 @@ Os programas de computador trabalham em cima de informações, dados, representa
 Variaveis
 ===========
 
-Em algumas liguagens antes de se utilizar uma variavel é preciso definir bem a variavel e seu tipo tendo em mente as operações a serem executadas sobre essa variável.
+Em algumas liguagens de modo geral antes de se utilizar uma variavel é preciso definir bem a variavel e seu tipo tendo em mente as operações a serem executadas sobre essa variável.
+
+Neste pequeno curso de programação de computador consideraremos como base a linguagem Python mas traremos alguns exemplos seguidos de breves explicações sobre a versão do código em C.
+
+Na linguagem Python, a qual é uma linguagem interpretada, a definição do tipo da variável é dinâmica ou seja o seu tipo é definido na atribuição e pode ser alterado ao longo do programa.
+
+Exemplo:
+```
+a = 2.0 # Tipo "real"
+k = 0 # inteiro
+```
