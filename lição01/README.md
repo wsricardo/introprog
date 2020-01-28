@@ -41,11 +41,39 @@ nome = nome.upper() # chamamos a função "upper" que processa o conteudo de nom
 Digite,
 
 ```
-	print(dobro)
-	print(k)
-	print(nome)
+print(dobro)
+print(k)
+print(nome)
+```
+Temos a seguinte saída para o fragmento acima,
+
+```
+	4.0
+	1
+	PEDRO HENRIQUE
 ```
 
 A palavra "print" é uma função (veremos mais detalhes em seção sobre funções) que serve a exibir mensagens na tela, neste exemplo os conteúdos das variáveis.
 
+Observe que de modo geral as linguagens permitem que novos tipos sejam criados e operações sobre esses tipos definidas.
 
+
+Operações
+=================
+
+Vamos observar um pouco agora sobre operações básicas. Como ocorre na matemática, como vimos na escola, há regras de preccedência que definem qual operação vem a ser executada primeiro.
+
+Exemplo:
+
+	2*4+1
+
+é diferente de
+
+	2*(4+1)
+
+Isso porque a multiplicação é efetuada primeiro que a soma e a subtração. A divisão também tem precedência maior que a soma e subtração. Essa ordem de execução das operações, como visto acima, pode ser alterada usando-se parenteses.
+
+Seu Interpretador Como Calculadora
+----------------------------------
+
+ 
