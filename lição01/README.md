@@ -1,5 +1,5 @@
 
-Algoritmos
+Algoritmo
 ===========
 
 Como visto anteriormente "algoritmo" de forma básica é uma sequência de instruções que servem a resolução de um dado problema ou tarefa. De modo geral um algoritmo o conceito de algoritmo está por trás da construção de programas de computadores os quais podem ser escritos em dada linguagem na qual será descrita os passos para a resolução de um problema.
