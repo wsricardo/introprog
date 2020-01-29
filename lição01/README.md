@@ -104,4 +104,11 @@ sqrt(4) # raiz quadrada
 
 ```
 
+Para ver a lista de funções e constantes matemáticas disponiveis no módulo *math* 
+
+```
+	help(math)
+```
+
+
 Conteúdo [Extras](https://github.com/wsricardo/introprog/tree/master/li%C3%A7%C3%A3o01/extras) 
