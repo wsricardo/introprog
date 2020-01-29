@@ -110,5 +110,9 @@ Para ver a lista de funções e constantes matemáticas disponiveis no módulo *
 	help(math)
 ```
 
+mais detalhes podem ser encontradas no site www.python.org na seção de documentação (em inglês).
+
+[Documentação Python](https://docs.python.org/)
+
 
 Conteúdo [Extras](https://github.com/wsricardo/introprog/tree/master/li%C3%A7%C3%A3o01/extras) 
