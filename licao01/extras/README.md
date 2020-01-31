@@ -41,7 +41,7 @@ Mais detalhes: [https://docs.python.org/3/reference/expressions.html#lambda](htt
 
 Esqueleto básico de um código C:
 
-```
+```c {.line-numbers}
 #include<stdio.h>
 
 int main(int argc, char **argv){
