@@ -42,13 +42,13 @@ Mais detalhes: [https://docs.python.org/3/reference/expressions.html#lambda](htt
 Esqueleto básico de um código C:
 
 ```c 
-#include<stdio.h>
-
-int main(int argc, char **argv){
-	// instruções.
-
-	return 0;
-}
+1 #include<stdio.h>
+2
+3 int main(int argc, char **argv){
+4	// instruções.
+5
+6	return 0;
+7}
 ```
 
-
+Na linha 1 é incluido biblioteca de funções que serão necessárias no programa. A linha três declara a função principal **main** que é por onde o programa inicia. Já a instrução **return** como diz o nome retorna um valor neste caso significa que o programa saiu com sucesso. A funão **main** é antecedida pelo nome **int** que indica o tipo do valor que a função deve retornar neste caso um inteiro (*int* de integer).
