@@ -21,3 +21,16 @@ servem a resolução de uma tarefa ou problema.
 * Lição 07
 * Lição 08
 * Lição 09
+
+## Python 
+
+A versão do Python utilizada será o 3.x.
+Download do interpretador python pode ser feito em [www.python.org](https://www.python.org). Usuário Linux podem instalar usando o gerenciador de aplicativos de sua distro ou baixndo o código fonte do site e seguindo os passos de construção do aplicativo.
+
+### Instalação no Debian e Ubuntu
+
+Como usuário root
+
+```
+	# apt install python3
+```
