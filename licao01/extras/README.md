@@ -2,7 +2,8 @@
 # EXTRAS
 
 1. Função Lambda Python
-2. Uma Breve Apresentação a Linguagem C
+2. Trabalhando com String
+3. Uma Breve Apresentação a Linguagem C
 
 
 ## Função Lambda
@@ -32,6 +33,32 @@ Definição geral:
 ```
 
 Mais detalhes: [https://docs.python.org/3/reference/expressions.html#lambda](https://docs.python.org/3/reference/expressions.html#lambda)
+
+## Trabalhando com strings
+
+Algumas operações e funções estão definidas para se trabalhar com strings. Por exemplo com o operador + é possível concatenar duas strings ou mais.
+
+Exemplos
+
+```
+	>>> n1 = "Pedro"
+	>>> n2 = "Henrique"
+	>>> n1 + n2
+	'PedroHenrique'
+	>>> m = n1 + ' ' + n2
+	>>> print(m)
+	Pedro Henrique
+	>>> m.split() 
+	['Pedro', 'Henrique']
+
+	>>> m[2:6] # Selecionando um pedaço da string
+	'dro'
+	>>> m[2:]
+	'dro Henrique'
+```
+
+Material extra sobre a linguagem Python [https://panda.ime.usp.br/panda/python](https://panda.ime.usp.br/panda/python)
+e em [www.python.org](https://www.python.org).
 
 
 ## Linguagem C
