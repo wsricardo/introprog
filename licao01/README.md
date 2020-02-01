@@ -57,6 +57,29 @@ A palavra "print" é uma função (veremos mais detalhes em seção sobre funç�
 
 Observe que de modo geral as linguagens permitem que novos tipos sejam criados e operações sobre esses tipos definidas.
 
+A váriavel nome é do tipo string, pode ser vista como um vetor de caracteres que pode ter elementos acessados da seguinte formas:
+
+```
+nome[n]
+```
+
+onde n indica a posição no vetor do elemento, com n iniciando em 0.
+Ou seja, o elemento em *nome[0]* é o primeiro elemento do vetor. Neste caso o elemento para n=0 é o caractere "P".
+
+Mais a frente vamos em examinar algumas funções que operam sobre variaveis do tipo string.
+
+Outros tipos de dados são listas, tuplas e dicionários.
+
+Exemplos:
+
+```
+	>>> lista = [2, 1, 3,] # lista de inteiros
+	>>> print(lista)
+	>>> l = [0, "Pedro", "c", True] # Não obrigado os elementos da lista serem do mesmo tipo.
+	>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas.
+
+```
+
 
 Operações
 =================
