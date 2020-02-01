@@ -102,7 +102,8 @@ Exemplos:
 Como no exemplo acima a estrutura de um dicionário é criada definindo uma *chave* e um *valor* associado a essa chave.
 As chaves podem ser valores inteiros, string.
 
-Obs.: mais detalhes sobre tipos, estruturas de dados nas seções seguintes. Na seção [extras](https://wsricardo.github.io/introprog/licao01/extras)
+Obs.: mais detalhes sobre tipos, estruturas de dados nas seções seguintes. Na seção [extras](https://wsricardo.github.io/introprog/licao01/extras) mais informações sobre tipos e funções definidas para operarem sobre esse tipo de dados.
+
 
 Operações
 =================
@@ -156,7 +157,7 @@ Para ver a lista de funções e constantes matemáticas disponiveis no módulo *
 	help(math)
 ```
 
-mais detalhes podem ser encontradas no site www.python.org na seção de documentação (em inglês).
+mais detalhes podem ser encontrados no site www.python.org na seção de documentação (em inglês).
 
 [Documentação Python](https://docs.python.org/)
 
