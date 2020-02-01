@@ -12,7 +12,7 @@ servem a resolução de uma tarefa ou problema.
 
 ## Lições
 
-* Lição 01
+* [Lição 01](https://github.com/wsricardo/introprog/tree/master/licao01)
 * Lição 02
 * Lição 03
 * Lição 04
