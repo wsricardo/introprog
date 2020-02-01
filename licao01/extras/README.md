@@ -90,3 +90,5 @@ Para compilar e rodar o programa (no linux),
 ```
 
 Na linha 1 é incluido biblioteca de funções que serão necessárias no programa. A linha três declara a função principal **main** que é por onde o programa inicia. Já a instrução **return** como diz o nome retorna um valor neste caso significa que o programa saiu com sucesso. A funão **main** é antecedida pelo nome **int** que indica o tipo do valor que a função deve retornar neste caso um inteiro (*int* de integer).
+
+Na última seção no material extras voltaremos a ver o básico da linguagem C. Por enquanto nos concetramos na construção de algoritmos e em alguns aspectos da linguagem de programação Python. :)
