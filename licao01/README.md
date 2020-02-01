@@ -94,8 +94,15 @@ Exemplos:
 **Dicionários**
 
 ```
-
+	>>> dc = {"chave1":"value1", "chave2": "value2"}
+	>>> print(dc["chave2"])
+	value2
 ```
+
+Como no exemplo acima a estrutura de um dicionário é criada definindo uma *chave* e um *valor* associado a essa chave.
+As chaves podem ser valores inteiros, string.
+
+Obs.: mais detalhes sobre tipos, estruturas de dados nas seções seguintes. Na seção [extras](https://wsricardo.github.io/introprog/licao01/extras)
 
 Operações
 =================
