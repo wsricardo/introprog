@@ -13,14 +13,14 @@ servem a resolução de uma tarefa ou problema.
 ## Lições
 
 * [Lição 01](https://wsricardo.github.io/introprog/licao01/)
-* Lição 02
-* Lição 03
-* Lição 04
-* Lição 05
-* Lição 06
-* Lição 07
-* Lição 08
-* Lição 09
+* [Lição 02](https://wsricardo.github.io/introprog/licao02)
+* [Lição 03](https://wsricardo.github.io/introprog/licao03)
+* [Lição 04](https://wsricardo.github.io/introprog/licao04)
+* [Lição 05](https://wsricardo.github.io/introprog/licao05)
+* [Lição 06](https://wsricardo.github.io/introprog/licao06)
+* [Lição 07](https://wsricardo.github.io/introprog/licao07)
+* [Lição 08](https://wsricardo.github.io/introprog/licao08)
+* [Lição 09](https://wsricardo.github.io/introprog/licao09)
 
 ## Python 
 
