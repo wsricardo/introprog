@@ -72,6 +72,8 @@ Outros tipos de dados são listas, tuplas e dicionários.
 
 Exemplos:
 
+**Listas**
+
 ```
 	>>> lista = [2, 1, 3,] # lista de inteiros
 	>>> print(lista)
@@ -79,7 +81,21 @@ Exemplos:
 	>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas.
 
 ```
+**Tuplas**
 
+```
+	>>> t = (3, 4, 5) # Semelhante a listas (*)
+	>>> t = ("oi", 34)
+	>>> print(t[0]) # exibindo o primeiro elemento da tupla.
+```
+
+(*) Obs.: Tuplas são tipos imutaveis ou seja apos definida uma variavel do tipo tupla seu valor não poderá ser alterado.
+
+**Dicionários**
+
+```
+
+```
 
 Operações
 =================
