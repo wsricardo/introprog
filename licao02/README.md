@@ -4,7 +4,7 @@ Muitas vezes você deseja que o programa repita algumas ações ou selecione uma
 Para tanto linguagens de programação em geral possuem *estruturas* que permitem você controlar a execução de seu programa. Tais estruturas são as codicionais e as de repetição.
 As estruturas condicionais desviam a execução de um trecho caso uma condição seja satisfeita. Já as estruturas de repetição repetem trechos de ações especificadas.
 
-Em python essas estruras são como veremos abaixo.
+Em python essas estruturas são como veremos abaixo.
 
 ## Condicionais
 
