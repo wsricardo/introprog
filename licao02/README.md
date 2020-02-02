@@ -57,9 +57,9 @@ Observe neste último exemplo o uso do **and** que é um conectivo lógico. Ele 
 
 Vejamos alguns operadores lógicos.
 
-And -> E
-Or -> Ou
-Not -> Não
+* And -> E
+* Or -> Ou
+* Not -> Não
 
 Tabela
 
