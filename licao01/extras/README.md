@@ -58,4 +58,4 @@ Exemplos
 Material extra sobre a linguagem Python [https://panda.ime.usp.br/panda/python](https://panda.ime.usp.br/panda/python)
 e em [www.python.org](https://www.python.org).
 
-[Exemplos](https://wsricardo.github.io/introprog/extras/exemplos)
+[Exemplos](https://wsricardo.github.io/introprog/licao01/extras/exemplos)
