@@ -3,7 +3,12 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.request
 
-dat = requests.get('https://www.wikipedia.org')
+urls = {'wiki_pt': 'https://pt.wikipedia.org', 
+        'wiki_pt_main': 'https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal',
+        'wiki_main': 'https://www.wikipedia.org'
+        }
+
+dat = requests.get(urls['wiki_main'])
 soup = BeautifulSoup(dat.text, 'html.parser')
 
 links = soup.findAll('a')
@@ -16,3 +21,6 @@ for j in lista_url:
 
 print(lista[0])
 
+#print('\n')
+#print('Conteudo da página')
+#print(soup.get_text())
