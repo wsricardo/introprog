@@ -21,6 +21,7 @@ import urllib.request
 # ao objeto string e a outra, o help, retorna detalhes sobre o objeto e suas
 # definições e métodos (funções associadas ao objeto 'string').
 # >>> dir(str)
+# >>> help(str)
 #
 
 urls = {'wiki_pt': 'https://pt.wikipedia.org', 
