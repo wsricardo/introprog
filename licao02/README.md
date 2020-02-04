@@ -112,6 +112,9 @@ Alguns exemplos. Operadores **and**, **or** e **not**.
 
 Suponha agora que temos idade1 = 23  e idade2 = 12, observemos a tabela. 
 (Sabendo que a maioridade é atingida aos 18 anos.)
+
+Definindo **A** e **B**
+
 A := idade1 > 18
 B := idade2 < 18
 
