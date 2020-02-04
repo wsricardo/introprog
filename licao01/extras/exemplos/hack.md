@@ -34,6 +34,7 @@ Script python
 	>>> dat = requests.get('https://pt.wikipedia.org/w/index.php?search=Arte&title=Especial%3APesquisar&wprov=acrw1_0')
 	>>> f = open('/tmp/data', 'w')
 	>>> f.write(dat.text)
+	>>> f.close()
 ```
 
 no terminal com comando *grep*, *cat* e *less*.
