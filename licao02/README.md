@@ -61,6 +61,11 @@ Vejamos alguns operadores lógicos.
 * Or -> Ou 
 * Not -> Não
 
+Obs.: O valor **1** representa sentença *verdadeira* e **0** para falso.
+
+Pensamos em **A** e **B** como proposições, ou afirmações. 
+(Do código acima **A** e **B** seriam as condições.)
+
 Tabela
 
 | **A** | **B** | **A** and **B** | **A** or **B** |
@@ -69,6 +74,13 @@ Tabela
 |   1   |   0   |       0         |       1        |
 |   0   |   1   |       0         |       1        |
 |   0   |   0   |       0         |       0        |
+
+
+| **A** | not **A** | 
+|-------|-----------|
+|   1   |     0     |
+|   0   |     1     |
+
 
 
 
