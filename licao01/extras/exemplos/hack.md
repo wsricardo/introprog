@@ -45,7 +45,7 @@ Obter conteúdo do arquivo criado pelo script python acima.
 	$ cat /tmp/data
 ```
 
-selecionando partes especificas do texto com grep que contem uma palavra ou que *casam* com a [expressão regular]() passada para o grep,
+selecionando partes especificas do texto com grep que contem uma palavra ou que *casam* com a [expressão regular](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular) passada para o grep,
 
 ```
 	$ cat /tmp/data | grep "Arte"
