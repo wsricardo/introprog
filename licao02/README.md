@@ -57,10 +57,18 @@ Observe neste último exemplo o uso do **and** que é um conectivo lógico. Ele 
 
 Vejamos alguns operadores lógicos.
 
-* And -> E
-* Or -> Ou
+* And -> E  
+* Or -> Ou 
 * Not -> Não
 
 Tabela
+
+| **A** | **B** | **A** and **B** | **A** or **B** |
+|-------|-------|-----------------|----------------|
+|   1   |   1   |       1         |       1        |
+|   1   |   0   |       0         |       1        |
+|   0   |   1   |       0         |       1        |
+|   0   |   0   |       0         |       0        |
+
 
 
