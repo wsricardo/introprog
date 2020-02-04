@@ -24,7 +24,7 @@ Aqui estaremos usando sistema linux e aplicações presentes em sistemas linux.
 * [Google](https://www.google.com/)
 * [Slideshare](https://pt.slideshare.net/fernando.palma/apostila-linux-bsico)
 
-## Combinando Python e grep
+## Combinando Python, grep e less
 
 Script python
 
