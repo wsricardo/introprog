@@ -147,7 +147,7 @@ Exemplo básico com *for*
 	>>>
 ```
 
-O **for** cria um loop onde a intrução dentro do **for** é executada cinco vezes. Neste caso acima a função **range**
+O **for** (*para* em português) cria um loop onde a intrução dentro do **for** é executada cinco vezes. Neste caso acima a função **range**
 gera a uma lista com inteiro de 0 até 4, ou seja, [0,1,2,3,4] onde a variavel **i** irá assumir a cada
 repetição um valor presente na lista.
 
@@ -163,3 +163,36 @@ Vejamos uma tabela para verificar a execução do trecho acima a cada passo da r
 
 No primeiro passo, **a** é iguai 0, no passo 2 **a** é 1, e assim por diante.
 
+Vejamos um exemplo para o uso da estrutura **while** (*enquanto* em português).
+
+Imaginemos que desejamos somar os números de 1 até 6 por exemplo.
+
+Algo como, soma = 1 + 2 + 3 + 4 + 5 + 6,
+
+```python
+	>>> soma = 0
+	>>> i = 1
+	>>> while i <= 6
+	...	soma = soma + i
+	...	i = i + 1
+	...
+	>>>
+	>>> print(soma)
+	21
+	>>>
+```
+
+Usaremos uma tabela para fazer o *teste de mesa* do código.
+
+| passo |   instrução   |  i     | soma  |
+|-------|---------------|--------|-------|
+|   1   |soma = soma + i|   1    |   1   |
+|   2	|  "            |   2    |   3   |
+|   3   |  "            |   3    |   6   |
+|   4   |   "           |   4    |   10  |
+|   5   |   "           |   5    |   15  |
+|   6   |   "           |   6    |   21  |
+
+No passo **6** a variavel **soma** estará armazenando o valor 21 que é o resultado da soma dos inteiros de 1 até 6 desrito no código acima.
+
+A tabela acima para soma ilustra o processo da execução do loop **while**, que é uma estrutura de repetição assim como o for.
