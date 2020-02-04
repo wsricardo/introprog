@@ -195,4 +195,6 @@ Usaremos uma tabela para fazer o *teste de mesa* do código.
 
 No passo **6** a variavel **soma** estará armazenando o valor 21 que é o resultado da soma dos inteiros de 1 até 6 desrito no código acima.
 
-A tabela acima para soma ilustra o processo da execução do loop **while**, que é uma estrutura de repetição assim como o for.
+A tabela acima para soma ilustra o processo da execução do loop **while**, que é uma estrutura de repetição assim como o **for**.
+
+Usando as *tabelas* como as acima é possível analisar os resultados das operações lógicas nas condições usadas em loops e estruturas condicionaais como também avaliar os valores armazenados nas variáveis a cada passo da eexecução do código.
