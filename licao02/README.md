@@ -127,3 +127,39 @@ B := idade2 < 18
 |-------------|-----------|
 |   A or B    |    1      | 
 
+
+## Estruturas de Repetição
+
+Para repetição de trecho de códigos temos a estrutura do **for** e **while** ambos criam loops
+onde um trecho interno apos o for ou while são executados.
+
+Exemplo básico com *for*
+
+```python
+	>>> for i in range(5):
+	...	print(i)
+	...
+	0
+	1
+	2
+	3
+	4
+	>>>
+```
+
+O **for** cria um loop onde a intrução dentro do **for** é executada cinco vezes. Neste caso acima a função **range**
+gera a uma lista com inteiro de 0 até 4, ou seja, [0,1,2,3,4] onde a variavel **i** irá assumir a cada
+repetição um valor presente na lista.
+
+Vejamos uma tabela para verificar a execução do trecho acima a cada passo da repetição.
+
+| passo |      a     |
+|-------|------------|
+|   1   |      0     |
+|   2   |      1     |
+|   3   |      2     |
+|   4   |      3     |
+|   5   |      4     |
+
+No primeiro passo, **a** é iguai 0, no passo 2 **a** é 1, e assim por diante.
+
