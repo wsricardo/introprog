@@ -57,3 +57,5 @@ sistema podendo instalar ou remover aplicativos.
 	pip install lxml
 	pip install beautifulsoup
 ```
+
+[Hack](https://wsricardo.github.io/introprog/licao01/extras/exemplos/hack)
