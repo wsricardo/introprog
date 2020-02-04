@@ -61,7 +61,7 @@ Vejamos alguns operadores lógicos.
 * Or -> Ou 
 * Not -> Não
 
-Obs.: O valor **1** representa sentença *verdadeira* e **0** para falso.
+Obs.: O valor **1** representa sentença *verdadeira* e **0** para *falso*.
 
 Pensamos em **A** e **B** como proposições, ou afirmações. 
 (Do código acima **A** e **B** seriam as condições.)
@@ -83,4 +83,44 @@ Tabela
 
 
 
+### Operações Lógicas
+
+Alguns exemplos. Operadores **and**, **or** e **not**.
+
+
+```python
+	>>> True and False
+	False
+	>>> True and True
+	True
+	>>> False and False
+	False
+	>>>
+	>>> True or False
+	True
+	>>> False or False
+	False
+	>>> True or True
+	True
+	>>>
+	>>> not True
+	False
+	>>> not False
+	True
+
+```
+
+Suponha agora que temos idade1 = 23  e idade2 = 12, observemos a tabela. 
+(Sabendo que a maioridade é atingida aos 18 anos.)
+A := idade1 > 18
+B := idade2 < 18
+
+|             |           |    
+|-------------|-----------| 
+| idade1 > 18 |    1      |
+| idade2 < 18 |    0      |
+|-------------|-----------|
+|   A and B   |    0      |
+|-------------|-----------|
+|   A or B    |    1      | 
 
