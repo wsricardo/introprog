@@ -36,7 +36,7 @@ Debian
 ```
 	$ su
 	# apt update && apt upgrade
-	# apt install requests lxml BeautifulSoup
+	# apt install python3-requests python3-lxml python3-bs4
 
 ```
 
@@ -57,5 +57,13 @@ sistema podendo instalar ou remover aplicativos.
 	pip install lxml
 	pip install beautifulsoup
 ```
+### Referências para leitura
+
+* PIP & Python Requests (Instalação) - https://pypi.org/project/requests/
+* Python Requests - https://requests.readthedocs.io/pt_BR (documentação)
+* BeautifulSoup - https://pypi.org/project/beautifulsoup4/
+* Python LXML - https://lxml.de/
+* Python BeautifulSoup4 - https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr/ (documentação)
+* Projeto Python LXML (PIP, Instalação) - https://pypi.org/project/lxml/
 
 [Hack](https://wsricardo.github.io/introprog/licao01/extras/exemplos/hack)
