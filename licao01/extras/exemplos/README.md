@@ -44,7 +44,7 @@ Ubuntu
 ```
 	$ sudo su
 	# apt update && apt upgrade
-	# apt install lxml requests beautifulsoup
+	# apt install python3-lxml python3-requests python3-bs4
 ```
 
 Também se pode optar fazer a instalação via pip.
