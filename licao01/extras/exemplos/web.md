@@ -34,6 +34,18 @@ Vamos à um pequeno exemplo de uma página:
 
 Copie o código acima e salve com a extensão *.html (exemplo.html) e abra com seu navegador web.
 
+Vejamos agora o significado de cada *tag*. A tag principal *html* marca a área do documento e onde todas as demais e o conteúdo serão inseridas. A tag *head* (ou cabeçalho) como nome sugeri delimita a área de recursos e informações sobre a página. Já na tag *body* temos o corpo do documento onde irá o conteúdo presente no site e tags que definirão como este conteúdo será posicionado. 
+
+A tag *h1* especifica uma área de conteúdo destacado e importante, como por exemplo um titulo de uma seção ou artigo. O nível dessa importância em sua variação trás-nos as tags *h2*, *h3*, *h4*, *h5* e *h6*.
+
+Já com a tag *ul* especificamos a criação de uma lista não-ordenada de elemento onde cada tag *li* define um item dessa lista.
+
+Com a tag *a* criamos um elemento para *link* que permite redirecionar-nos para outra página da internet ou seção do site. O parâmetro href especifica para onde o link deve apontar.
+
+Devemos notar que de modo geral e exceção de tags como *<br>* necessitamos abrir e fechar a tag. Como visto acima a tag *a* inicia com ```*<a href="https://www.google.com"> e termina com *</a>*```.
+
+## Visual do site com CSS
+
 Imagine que agora você deseja modifica o visual do seu site. Você pode fazê-lo adicionando CSS dentro do próprio arquivo html ou em um arquivo externo. Neste exemplo mostraremos o trecho que pode adicionar e como coloca-lo internamente ou externamente.
 Vejamos:
 
