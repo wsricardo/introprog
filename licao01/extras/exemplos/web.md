@@ -11,7 +11,7 @@ Atualmente o padrão usado é o **HTML5** o qual acrescentou novos recursos aos 
 Vamos à um pequeno exemplo de uma página:
 
 ```html
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Meu Site</title>
@@ -84,8 +84,8 @@ salve este código dentro do arquivo *exemplo.html* dentro da tag *head* usando 
 
 No caso de o CSS estar em um arquivo externo, tendo salvo o código CSS acima como *style.css*, por exemplo, podemos inclui-lo no *HTML* da seguinte forma,
 
-```
-<!DOCTYPE HTML>
+```html
+<!DOCTYPE html>
 <html>
   <head>
     <title>Meu Site</title>
@@ -97,3 +97,45 @@ No caso de o CSS estar em um arquivo externo, tendo salvo o código CSS acima co
 </html>
 
 ```
+
+O *estilo* (*style*) para o site também pode ser inserida de forma *inline* da seguinte forma,
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Site</title>
+  <head>
+<body>
+  <h1 style="font-family: Arial Helvetica sans-serif; font-size: 40px;>Wellcome</h1>
+</body>
+</html>
+```
+
+Usando o parâmetro *style* dentro de uma tag neste caso a *h1* denimos a forma como conteúdo desta tag é exibido.
+
+De modo geral o CSS tem a seguinte forma,
+
+```css
+<seletor> { 
+  <declaração1>; 
+  <declaração2>;
+  //...
+  <declaraçãon>
+}
+```
+
+Onde o *seletor* (*selector* em inglês) o faz referência ao elemnto HTML no qual você deseja definir o estilo, ou seja, aspectos visuais. 
+
+E *declaração* inclui as propriedades nas quais serão definidas as caracteriscas visuais através dos valores definidos. Por exemplo para definir a fonte e seu tamanho na tag *h1* fazemos *font-family: arial helvetica sans-serif* e *font-size: 40px* onde definiu-se a familia da fonte e seu tamanho respectivamente.
+
+Vejamos:
+
+```css
+h1 {
+  font-family: arial helvetica sans-serif; // Defini qual fonte para o texto será usada.
+  font-size: 40px; // Tamanho da fonte.
+}
+``` 
+
+Mais detalhes sobre o uso do html e css serão mostrados na seções seguintes. 
