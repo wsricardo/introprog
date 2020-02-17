@@ -89,7 +89,7 @@ No caso de o CSS estar em um arquivo externo, tendo salvo o código CSS acima co
 <html>
   <head>
     <title>Meu Site</title>
-    
+    <link rel="stylesheet" href="style.css">
   <head>
 <body>
   <h1>Wellcome</h1>
