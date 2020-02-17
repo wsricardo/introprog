@@ -54,11 +54,46 @@ ul {
 }
 
 ul li {
-
+	padding: 6px;
 }
 
 h1 {
-
+	font-family: "Arial", sans-serif;
+	font-style: bold;
+	font-size: 60px;
 }
+
+```
+
+salve este código dentro do arquivo *exemplo.html* dentro da tag *head* usando a tag *style* como mostrado abaixo no exemplo.
+
+```html
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Meu Site</title>
+    <style>
+        // Meu código CSS aqui
+    </style>
+  <head>
+<body>
+  <h1>Wellcome</h1>
+</body>
+</html>
+```
+
+No caso de o CSS estar em um arquivo externo, tendo salvo o código CSS acima como *style.css*, por exemplo, podemos inclui-lo no *HTML* da seguinte forma,
+
+```
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Meu Site</title>
+    
+  <head>
+<body>
+  <h1>Wellcome</h1>
+</body>
+</html>
 
 ```
