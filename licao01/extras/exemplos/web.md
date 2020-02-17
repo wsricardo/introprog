@@ -107,7 +107,7 @@ O *estilo* (*style*) para o site também pode ser inserida de forma *inline* da 
     <title>Meu Site</title>
   <head>
 <body>
-  <h1 style="font-family: Arial Helvetica sans-serif; font-size: 40px;>Wellcome</h1>
+  <h1 style="font-family: Arial Helvetica sans-serif; font-size: 40px;">Wellcome</h1>
 </body>
 </html>
 ```
