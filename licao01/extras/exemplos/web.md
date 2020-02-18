@@ -156,11 +156,11 @@ h1 {
 
 *Downloads exemplo*
 
-[exemplo1.html](https://github.io/wsricardo/introprog/licao01/extras/exemplos/exemplo1.html)
+[exemplo1.html](https://github.com/wsricardo/introprog/blob/master/licao01/extras/exemplos/exemplo1.html)
 
-[exemplo2.html](https://github.io/wsricardo/introprog/licao01/extras/exemplos/xemplo2.html)
+[exemplo2.html](https://github.com/wsricardo/introprog/blob/master/licao01/extras/exemplos/exemplo2.html)
 
-[style.css](thttps://github.io/wsricardo/introprog/licao01/extras/exemplos/slyle.css)
+[style.css](https://github.com/wsricardo/introprog/blob/master/licao01/extras/exemplos/style.css)
 
 Mais detalhes sobre o uso do html e css serão mostrados na seções seguintes.
 
