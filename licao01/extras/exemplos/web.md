@@ -158,7 +158,7 @@ h1 {
 
 [exemplo1.html](https://github.io/wsricardo/introprog/licao01/extras/exemplos/exemplo1.html)
 
-[exemplo2.html](ehttps://github.io/wsricardo/introprog/licao01/extras/exemplos/xemplo2.html)
+[exemplo2.html](https://github.io/wsricardo/introprog/licao01/extras/exemplos/xemplo2.html)
 
 [style.css](thttps://github.io/wsricardo/introprog/licao01/extras/exemplos/slyle.css)
 
