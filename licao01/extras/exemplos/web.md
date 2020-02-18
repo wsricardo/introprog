@@ -50,31 +50,35 @@ Imagine que agora você deseja modifica o visual do seu site. Você pode fazê-l
 Vejamos:
 
 ```css
-// Definições gerais de estilo para fonte e tamanho dos textos
+/* Definições gerais de estilo para fonte e tamanho dos textos*/
 * {
-  font-family: arial, helvetica, sans-serif;
-  font-size: 14pt;
+font-family: arial, helvetica, sans-serif;
+font-size: 14pt;
 }
 
-// Definindo estilo pra visual da *lista* criada com *ul*.
+/* Definindo estilo pra visual da *lista* criada com *ul*.*/
 ul {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
+/* Selecionando tags contigas dentro de outra tag*/
 ul li {
 	padding: 6px;
+	display: inline;
 }
 
+ul li a {
+
+
+}
+/*Definindo o estilo para o titulo da seção em destaque "Wellcome".*/
 h1 {
 	font-family: "Arial", sans-serif;
 	font-style: bold;
 	font-size: 60px;
 }
-
 ```
 
 salve este código dentro do arquivo *exemplo.html* dentro da tag *head* usando a tag *style* como mostrado abaixo no exemplo.
@@ -150,7 +154,17 @@ h1 {
 }
 ``` 
 
+*Downloads exemplo*
+
+[exemplo1.html](https://wsricardo.github.io/introprog/licao01/extras/exemplos/exemplo1.html)
+
+[exemplo2.html](https://wsricardo.github.io/introprog/licao01/extras/exemplos/exemplo2.html)
+
+[style.css](https://wsricardo.github.io/introprog/licao01/extras/exemplos/style.css)
+
 Mais detalhes sobre o uso do html e css serão mostrados na seções seguintes.
 
 [Conteúdo](https://wsricardo.github.io/introprog)
 [Lição 2](https://wsricardo.github.io/introprog/licao02) 
+
+

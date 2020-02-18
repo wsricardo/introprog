@@ -1,0 +1,29 @@
+/* Definições gerais de estilo para fonte e tamanho dos textos*/
+* {
+font-family: arial, helvetica, sans-serif;
+font-size: 14pt;
+}
+
+/* Definindo estilo pra visual da *lista* criada com *ul*.*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Selecionando tags contigas dentro de outra tag*/
+ul li {
+	padding: 6px;
+	display: inline;
+}
+
+ul li a {
+
+
+}
+/*Definindo o estilo para o titulo da seção em destaque "Wellcome".*/
+h1 {
+	font-family: "Arial", sans-serif;
+	font-style: bold;
+	font-size: 60px;
+}
