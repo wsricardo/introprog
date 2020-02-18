@@ -26,6 +26,7 @@ Vamos à um pequeno exemplo de uma página:
     <li><a href="https://www.google.com">Google</a></li>
     <li><a href="https://www.github.com">Github</a></li>
     <li><a href="https://wsricardo.blogspot.com">WS Ricardo</a></li>
+    <li><a href="https://www.facebook.com/ItaengaConecta">Itaenga Conecta!</a></li>
   </ul>	
  
 </body>
