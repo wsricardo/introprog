@@ -22,7 +22,7 @@ Analisemos o seguinte trecho de código:
 	>>>
 ```
 
-No exemplo a *condição* definida é **idade** ser maior ou igual a 18 anos. Como idade recebeu 23, logo a linha contendo o **print** será executda. Experimente alterar o trecho acima e atribuir um valor menor que 18 a idade e veja o resultado.
+No exemplo a *condição* definida é *idade ser maior ou igual a 18 anos*. Como idade recebeu 23, logo a linha contendo o **print** será executda. Experimente alterar o trecho acima e atribuir um valor menor que 18 a idade e veja o resultado.
 
 Caso precise avaliar outras condições ou dterminar outras ações ou condições a serem analizadas caso a primeira falhe pode se usar o **elif** e o **else**.
 
@@ -53,7 +53,7 @@ Mas imagine uma situação onde quer selecionar, separando em jovens, adultos e 
 Abra um editor de texto e digite esse exemplo acima. E execute com interpretador python.
 Para este exemplo logo acima a saída será  "*Você é um adulto.*".
 
-Observe neste último exemplo o uso do **and** que é um conectivo lógico. Ele serviu para conectar as duas condições formando uma condição formada por duas partes onde as duas precisam ser verdadeiras simultaneamente para termos o *print* de "Você é um adulto.* ser exibido na tela.
+Observe neste último exemplo o uso do **and** que é um conectivo lógico. Ele serviu para conectar as duas condições formando uma condição formada por duas partes onde as duas precisam ser verdadeiras simultaneamente para termos o *print* de *Você é um adulto.* ser exibido na tela.
 
 Vejamos alguns operadores lógicos.
 
@@ -121,17 +121,16 @@ B := idade2 < 18
 |             |           |    
 |-------------|-----------| 
 | idade1 > 18 |    1      |
-| idade2 < 18 |    0      |
+| idade2 < 18 |    1      |
 |-------------|-----------|
-|   A and B   |    0      |
+|   A and B   |    1      |
 |-------------|-----------|
 |   A or B    |    1      | 
 
 
 ## Estruturas de Repetição
 
-Para repetição de trecho de códigos temos a estrutura do **for** e **while** ambos criam loops
-onde um trecho interno apos o for ou while são executados.
+Para repetição de trecho de códigos temos a estrutura do **for** e **while** ambos criam loops onde um trecho interno apos o for ou while são executados.
 
 Exemplo básico com *for*
 
@@ -147,9 +146,7 @@ Exemplo básico com *for*
 	>>>
 ```
 
-O **for** (*para* em português) cria um loop onde a intrução dentro do **for** é executada cinco vezes. Neste caso acima a função **range**
-gera a uma lista com inteiro de 0 até 4, ou seja, [0,1,2,3,4] onde a variavel **i** irá assumir a cada
-repetição um valor presente na lista.
+O **for** (*para* em português) cria um loop onde a instrução dentro do **for** é executada cinco vezes. Neste caso acima a função **range** gera uma lista com inteiros de 0 até 4, ou seja, [0,1,2,3,4] onde a variavel **i** irá assumir a cada repetição um valor presente na lista.
 
 Vejamos uma tabela para verificar a execução do trecho acima a cada passo da repetição.
 
@@ -184,17 +181,19 @@ Algo como, soma = 1 + 2 + 3 + 4 + 5 + 6,
 
 Usaremos uma tabela para fazer o *teste de mesa* do código.
 
-| passo |   instrução   |  i     | soma  |
+| passo |     i <= 6    |  i     | soma  |
 |-------|---------------|--------|-------|
-|   1   |soma = soma + i|   1    |   1   |
-|   2	|  "            |   2    |   3   |
-|   3   |  "            |   3    |   6   |
-|   4   |   "           |   4    |   10  |
-|   5   |   "           |   5    |   15  |
-|   6   |   "           |   6    |   21  |
+|   1   |  Verdadeiro   |   1    |   1   |
+|   2	|  Verdadeiro   |   2    |   3   |
+|   3   |  Verdadeiro   |   3    |   6   |
+|   4   |  Verdadeiro   |   4    |   10  |
+|   5   |  Verdadeiro   |   5    |   15  |
+|   6   |  Verdadeiro   |   6    |   21  |
+|   7   |  Falso        |   -    |   -   |
+
 
 No passo **6** a variavel **soma** estará armazenando o valor 21 que é o resultado da soma dos inteiros de 1 até 6 desrito no código acima.
 
 A tabela acima para soma ilustra o processo da execução do loop **while**, que é uma estrutura de repetição assim como o **for**.
 
-Usando as *tabelas* como as acima é possível analisar os resultados das operações lógicas nas condições usadas em loops e estruturas condicionaais como também avaliar os valores armazenados nas variáveis a cada passo da eexecução do código.
+Usando as *tabelas* como as acima é possível analisar os resultados das operações lógicas nas condições usadas em loops e estruturas condicionais como também avaliar os valores armazenados nas variáveis a cada passo da execução do código e poder verificar e corrigir o código em caso de erros.
