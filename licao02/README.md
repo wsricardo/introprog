@@ -201,4 +201,5 @@ Usando as *tabelas* como as acima é possível analisar os resultados das opera�
 
 
 [Ler mais sobre fluxo - Seleção](https://panda.ime.usp.br/pensepy/static/pensepy/06-Selecao/selecao.html)
+
 [Ler mais sobre fluxo - Interação](https://panda.ime.usp.br/pensepy/static/pensepy/07-Iteracao/maisiteracao.html)
