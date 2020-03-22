@@ -197,3 +197,8 @@ No passo **6** a variavel **soma** estará armazenando o valor 21 que é o resul
 A tabela acima para soma ilustra o processo da execução do loop **while**, que é uma estrutura de repetição assim como o **for**.
 
 Usando as *tabelas* como as acima é possível analisar os resultados das operações lógicas nas condições usadas em loops e estruturas condicionais como também avaliar os valores armazenados nas variáveis a cada passo da execução do código e poder verificar e corrigir o código em caso de erros.
+
+
+
+[Ler mais sobre fluxo - Seleção](https://panda.ime.usp.br/pensepy/static/pensepy/06-Selecao/selecao.html)
+[Ler mais sobre fluxo - Interação](https://panda.ime.usp.br/pensepy/static/pensepy/07-Iteracao/maisiteracao.html)
