@@ -59,4 +59,5 @@ Material extra sobre a linguagem Python [https://panda.ime.usp.br/panda/python](
 e em [www.python.org](https://www.python.org).
 
 [Sobre String](https://panda.ime.usp.br/pensepy/static/pensepy/08-Strings/strings.html)
+
 [Exemplos](https://wsricardo.github.io/introprog/licao01/extras/exemplos)
