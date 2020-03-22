@@ -16,7 +16,7 @@ Algumas bibliotecas que serão utilizadas nesta seção.
 
 ### Windows
 
-Baixe e instale o python 3 do site www.python.org antes de tudo se tiver instalado.
+Baixe e instale o python 3 do site www.python.org antes de tudo se não o tiver instalado.
 Usando o powershell que está presente no Windows 10 (o qual pode ser baixado do site da microsoft gratuitamente)
 instale  *requests*, *lxml* e *BeautifulSoup*.
 

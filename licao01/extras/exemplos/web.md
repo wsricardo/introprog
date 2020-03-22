@@ -2,7 +2,7 @@
 
 Em nossos exemplo quando acessamos páginas da WEB através de nossos códigos obtemos determinados conteúdos especificos que descrevem o visual e funcionalidade de sites. A linguagem usada para construir esses sites chama-se *HTML* que é uma abreviação para expressão inglesa *HyperText Markup Language* que significa *Linguagem de Marcação de Hipertexto*. O *HTML* é uma linguagem de *marcação* a qual é interpretada pelos navegadores. 
 
-Todo documento *HTML* usa marcadores (do inglês, *tags*) que palavras entre *parêntes angulares* - sinais *<* e *>* - tais marcadores são usados na formatação do conteúdo e na inserção de funcionalidades e recursos externos que definem o comportamento e o visual da página WEB. Esses recursos podem ser imagens, vídeos, scripts e arquivos CSS. Os dois últimos acrescentam funcionalidades e definem o visual respectivamente. A linguagem usada para os scripts (códigos) é a linguagem *javascript* que acrescenta recursos que podem definir ações e eventos tratados pela página conferindo mais dinamismo na exibição e tratamento do conteúdo. Já com arquivos CSS ( do inglês *Cascading Style Sheets*, folha de estlos) adiciona estilos ao site descrevendo aspectos visuais.
+Todo documento *HTML* usa marcadores (do inglês, *tags*) que são palavras entre *parêntes angulares* - sinais *<* e *>* - tais marcadores são usados na formatação do conteúdo e na inserção de funcionalidades e recursos externos que definem o comportamento e o visual da página WEB. Esses recursos podem ser imagens, vídeos, scripts e arquivos CSS. Os dois últimos acrescentam funcionalidades e definem o visual respectivamente. A linguagem usada para os scripts (códigos) é a linguagem *javascript* que acrescenta recursos que podem definir ações e eventos tratados pela página conferindo mais dinamismo na exibição e tratamento do conteúdo. Já com arquivos CSS ( do inglês *Cascading Style Sheets*, folha de estilos) adiciona estilos ao site descrevendo aspectos visuais.
 
 ## HTML
 
@@ -64,7 +64,7 @@ ul {
 	padding: 0;
 }
 
-/* Selecionando tags contigas dentro de outra tag*/
+/* Selecionando tags contidas dentro de outra tag*/
 ul li {
 	padding: 6px;
 	display: inline;
@@ -82,7 +82,7 @@ h1 {
 }
 ```
 
-salve este código dentro do arquivo *exemplo.html* dentro da tag *head* usando a tag *style* como mostrado abaixo no exemplo.
+salve este código no arquivo *exemplo.html* dentro da tag *head* usando a tag *style* como mostrado abaixo no exemplo.
 
 ```html
 <!DOCTYPE HTML>
@@ -129,7 +129,7 @@ O *estilo* (*style*) para o site também pode ser inserida de forma *inline* da 
 </html>
 ```
 
-Usando o parâmetro *style* dentro de uma tag neste caso a *h1* denimos a forma como conteúdo desta tag é exibido.
+Usando o parâmetro *style* dentro de uma tag neste caso a *h1* definimos a forma como conteúdo desta tag é exibido.
 
 De modo geral o CSS tem a seguinte forma,
 
@@ -167,5 +167,3 @@ Mais detalhes sobre o uso do html e css serão mostrados na seções seguintes.
 
 [Conteúdo](https://wsricardo.github.io/introprog)
 [Lição 2](https://wsricardo.github.io/introprog/licao02) 
-
-

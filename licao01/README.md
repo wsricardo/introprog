@@ -2,7 +2,7 @@
 Algoritmo
 ===========
 
-Como visto anteriormente "algoritmo" de forma básica é uma sequência de instruções que servem a resolução de um dado problema ou tarefa. De modo geral um algoritmo o conceito de algoritmo está por trás da construção de programas de computadores os quais podem ser escritos em dada linguagem na qual será descrita os passos para a resolução de um problema.
+Como visto anteriormente "algoritmo" de forma básica é uma sequência de instruções que servem a resolução de um dado problema ou tarefa. De modo geral o conceito de algoritmo está por trás da construção de programas de computadores os quais podem ser escritos em dada linguagem na qual será descrita os passos para a resolução de um problema.
 Pense por exemplo como a receita de um bolo como também um algoritmo.
 
 Trabalhando e Representando Dados
@@ -66,7 +66,7 @@ nome[n]
 onde n indica a posição no vetor do elemento, com n iniciando em 0.
 Ou seja, o elemento em *nome[0]* é o primeiro elemento do vetor. Neste caso o elemento para n=0 é o caractere "P".
 
-Mais a frente vamos em examinar algumas funções que operam sobre variaveis do tipo string.
+Mais a frente vamos examinar algumas funções que operam sobre variaveis do tipo string.
 
 Outros tipos de dados são listas, tuplas e dicionários.
 
@@ -77,7 +77,7 @@ Exemplos:
 ```
 	>>> lista = [2, 1, 3,] # lista de inteiros
 	>>> print(lista)
-	>>> l = [0, "Pedro", "c", True] # Não obrigado os elementos da lista serem do mesmo tipo.
+	>>> l = [0, "Pedro", "c", True] # Não é obrigado os elementos da lista serem do mesmo tipo.
 	>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas.
 
 ```
@@ -108,7 +108,7 @@ Obs.: mais detalhes sobre tipos, estruturas de dados nas seções seguintes. Na 
 Operações
 =================
 
-Vamos observar um pouco agora sobre operações básicas. Como ocorre na matemática, como vimos na escola, há regras de preccedência que definem qual operação vem a ser executada primeiro.
+Vamos observar um pouco agora sobre operações básicas. Como ocorre na matemática, como vimos na escola, há regras de precedência que definem qual operação vem a ser executada primeiro.
 
 Exemplo:
 
