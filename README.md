@@ -12,8 +12,9 @@ servem a resolução de uma tarefa ou problema.
 
 ## Lições
 
-* [Lição 01](https://wsricardo.github.io/introprog/licao01/)
-* [Lição 02](https://wsricardo.github.io/introprog/licao02)
+* [Lição 1](https://wsricardo.github.io/introprog/licao01)
+* [Lição 2](https://wsricardo.github.io/introprog/licao02)
+* [Lição 3](https://wsricardo.github.io/introprog/licao03)
 
 ## Python 
 
