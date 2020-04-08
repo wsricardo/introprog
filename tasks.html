@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="tasks">Tasks</h1>
+<h2 id="tarefas-faltantes">Tarefas Faltantes</h2>
+<h3 id="correções">Correções</h3>
+<ul class="incremental">
+<li>Corrigir o programa crawlernews.py
+<ul class="incremental">
+<li>Adequar variavel para armazenar a noticia e seu link.</li>
+<li>implementar variavel e função para salvar noticias em json e csv.</li>
+<li></li>
+</ul></li>
+</ul>
+<h4 id="montando-a-estrutura-pra-armazenar-informações-das-noticias">Montando a estrutura pra armazenar informações das noticias</h4>
+<p>tags -&gt; class</p>
+<p>article (destaque) -&gt; class=(MQsxIb xTewfe R7GTQ keNKEd j7vNaf Cc0Z5d EjqUne)</p>
+<p>article (comum) -&gt; class=( MQsxIb xTewfe tXImLc R7GTQ keNKEd keNKEd dIehj EjqUne )</p>
+<p>a (links das noticias) -&gt; class=(VDXfz DY5T1d)</p>
+<p>h3 (título da noticia em destaque) -&gt; ( ipQwMb ekueJc gEATFF RD0gLb )</p>
+<p>div (rodapé da noticiade e fonte) -&gt; class=( QmrVtf RD0gLb ) (1) * [1] (Contém o nome de onde é a notícia) -&gt; a -&gt; class=( wEwyrc AVN2gc uQIVzc Sksgp )</p>
+<p>( ( div -&gt; SbNwzf ) -&gt; article ) -&gt; class=( MQsxIb xTewfe tXImLc R7GTQ keNKEd keNKEd dIehj , EjqUne )</p>
+<p>h4 -&gt; class=( ipQwMb ekueJc gEATFF RD0gLb )</p>
+<p>Estrutura Campos</p>
+<p>{ Titulo, link, nome da fonte da noticia }</p>
+<p>definindo ela como dicionário</p>
+<pre><code>    dnews = { &#39;titulo&#39;: texto,
+        &#39;link&#39;: link_name,
+        &#39;nome_origem&#39;: origem }
+</code></pre>
+<p>Refinindo a estrutura</p>
+<pre><code>dnews = [ {&#39;titulo&#39;: texto, &#39;link&#39;: link_name, &#39;nome_origem&#39;: origem },
+      {.},
+    ...,
+    {.},
+
+    ]</code></pre>
+<h3 id="atualidação">Atualidação</h3>
+<pre><code>Atualizar tutorial introprog seção 2 e 3</code></pre>
+</body>
+</html>
