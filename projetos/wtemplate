@@ -1,0 +1,20 @@
+newstemplate = """<!DOCTYPE html>
+<html>
+	<head>
+	<title>{title}</title>
+	<style>
+		body {
+			color: black;
+			background-color: white;
+	
+		}
+		
+	</style>
+</head>
+	<body>
+		<div class="news">
+			{dnews}
+		</div>
+	</body>
+</html>
+"""

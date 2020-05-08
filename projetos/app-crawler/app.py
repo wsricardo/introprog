@@ -47,7 +47,7 @@ for i in range(size_dnews):
         )
 
 def gen_template(content_news, template_full=False):
-
+    import wtemplate
     if template_full:
         page_news = '<ul >'
         for i in range(size_dnews):
@@ -100,16 +100,8 @@ def gen_json(content_news, out='output'):
     with open(out+'.json', 'w') as fl:
         fl.write(data)
         
+if __name__ == "__main__":
+    #print(gen_template(dnews[0]))
+    #gen_json(dnews)
+    gen_template(dnews, True)
 
-#print(gen_template(dnews[0]))
-#gen_json(dnews)
-gen_template(dnews, True)
-
-#print(dnews[0]['source_news'])
-#print('$> ',dnews[0])
-#print('\n>' + 
-#        repr(cwn[1].find_all(re.compile('^h'))[0].string) 
-#        )
-#print(cwn[0].h3.string)
-#print(cwn[0].a['href'])
-#print('Origem Noticia$> '+cwn[0].find_all('a', class_='wEwyrc')[0].string)

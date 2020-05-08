@@ -5,6 +5,7 @@ import re
 
 url_pt_br = 'https://news.google.com/topstories?tab=wn&hl=pt-BR&gl=BR&ceid=BR:pt-419'
 
+
 url = 'https://news.google.com'
 
 attr = { 'tags': 'article',
@@ -47,9 +48,9 @@ for i in range(size_dnews):
         )
 
 def gen_template(content_news, template_full=False):
-
+    #import wtemplate
     if template_full:
-        page_news = '<ul >'
+        page_news = '<ul style="list-style-type: none;">'
         for i in range(size_dnews):
             page_news += """
             <li> <h4 style="margin: 0; padding: 0;"> {0} </h4>
@@ -62,15 +63,17 @@ def gen_template(content_news, template_full=False):
         # Fim 'for'
         page_news += '</ul>'
 
-        with open('output1.html', 'w') as fl:
+        with open('output2.html', 'w') as fl:
             fl.write("""
                     <!DOCTYPE html>
                     <html>
                     <head><title>Notícias</title>
                     </head>
-                    <body>
-                    <h3>Portal Notícias</h3>
+                    <body style="margin: 0; padding: 0;">
+                    <h3 style="background-color: #a1a1e4; position: fixed; top: 0; width: 100%; overflow: hidden; font-weight: bold; font-size: 24pt; padding: 12px; margin: 0; text-align: center;">Portal Notícias</h3>
+                    <div style="padding: 48pt 6pt 6pt 6pt; margin: 0;">
                      {0}
+                    </div>
                     </body>
                     </html>
 
@@ -100,16 +103,7 @@ def gen_json(content_news, out='output'):
     with open(out+'.json', 'w') as fl:
         fl.write(data)
         
-
-#print(gen_template(dnews[0]))
-#gen_json(dnews)
-gen_template(dnews, True)
-
-#print(dnews[0]['source_news'])
-#print('$> ',dnews[0])
-#print('\n>' + 
-#        repr(cwn[1].find_all(re.compile('^h'))[0].string) 
-#        )
-#print(cwn[0].h3.string)
-#print(cwn[0].a['href'])
-#print('Origem Noticia$> '+cwn[0].find_all('a', class_='wEwyrc')[0].string)
+if __name__ == "__main__":
+    #print(gen_template(dnews[0]))
+    #gen_json(dnews)
+    gen_template(dnews, True)
