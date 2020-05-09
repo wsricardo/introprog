@@ -68,6 +68,8 @@ def gen_template(content_news, template_full=False):
                     <!DOCTYPE html>
                     <html>
                     <head><title>Notícias</title>
+                    <meta name="viewport" content="width=device-width,initial-scale=1">
+                    <meta charset="utf-8">
                     </head>
                     <body style="margin: 0; padding: 0;">
                     <h3 style="background-color: #a1a1e4; position: fixed; top: 0; width: 100%; overflow: hidden; font-weight: bold; font-size: 24pt; padding: 12px; margin: 0; text-align: center;">Portal Notícias</h3>
