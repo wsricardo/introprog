@@ -5,6 +5,7 @@ import re
 
 url_pt_br = 'https://news.google.com/topstories?tab=wn&hl=pt-BR&gl=BR&ceid=BR:pt-419'
 
+
 url = 'https://news.google.com'
 
 attr = { 'tags': 'article',
@@ -47,12 +48,12 @@ for i in range(size_dnews):
         )
 
 def gen_template(content_news, template_full=False):
-    import wtemplate
+    #import wtemplate
     if template_full:
-        page_news = '<ul >'
+        page_news = '<ul style="list-style-type: none;">'
         for i in range(size_dnews):
             page_news += """
-            <li> <h4 style="margin: 0; padding: 0;"> {0} </h4>
+            <li> <h4 class="cnewsTitle"> {0} </h4>
             <a style="margin: 0; padding: 0; text-align: center;" href="{1}">{2}</a> </li><br><br><br>
             """.format(
                     dnews[i]['title'],
@@ -61,20 +62,13 @@ def gen_template(content_news, template_full=False):
                     )
         # Fim 'for'
         page_news += '</ul>'
+        webtemplate = open('crawlernews.html', 'r').read()
+        #print(">", webtemplate)
+        #import time
+        #time.sleep(10)
 
-        with open('output1.html', 'w') as fl:
-            fl.write("""
-                    <!DOCTYPE html>
-                    <html>
-                    <head><title>Notícias</title>
-                    </head>
-                    <body>
-                    <h3>Portal Notícias</h3>
-                     {0}
-                    </body>
-                    </html>
-
-                    """.format( page_news ) )
+        with open('output3.html', 'w') as fl:
+            fl.write(webtemplate.replace('{newslist}', page_news ) )
             return 1
 
     return """
@@ -104,4 +98,3 @@ if __name__ == "__main__":
     #print(gen_template(dnews[0]))
     #gen_json(dnews)
     gen_template(dnews, True)
-
