@@ -32,6 +32,7 @@ Definição geral:
 
 Mais detalhes: [https://docs.python.org/3/reference/expressions.html#lambda](https://docs.python.org/3/reference/expressions.html#lambda)
 
+
 ## Trabalhando com strings
 
 Algumas operações e funções estão definidas para se trabalhar com strings. Por exemplo com o operador + é possível concatenar duas strings ou mais.

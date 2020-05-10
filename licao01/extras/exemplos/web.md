@@ -47,7 +47,7 @@ Devemos notar que de modo geral e exceção de tags como *<br>* necessitamos abr
 
 ## Visual do site com CSS
 
-Imagine que agora você deseja modifica o visual do seu site. Você pode fazê-lo adicionando CSS dentro do próprio arquivo html ou em um arquivo externo. Neste exemplo mostraremos o trecho que pode adicionar e como coloca-lo internamente ou externamente.
+Imagine que agora você deseja modificar o visual do seu site. Você pode fazê-lo adicionando CSS dentro do próprio arquivo html ou em um arquivo externo. Neste exemplo mostraremos o trecho que pode adicionar e como coloca-lo internamente ou externamente.
 Vejamos:
 
 ```css
@@ -82,7 +82,7 @@ h1 {
 }
 ```
 
-salve este código no arquivo *exemplo.html* dentro da tag *head* usando a tag *style* como mostrado abaixo no exemplo.
+insira este código no html abaixo no arquivo *exemplo.html* dentro da tag *head* usando a tag *style* como mostrado abaixo no exemplo.
 
 ```html
 <!DOCTYPE HTML>

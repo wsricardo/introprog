@@ -63,8 +63,8 @@ A váriavel nome é do tipo string, pode ser vista como um vetor de caracteres q
 nome[n]
 ```
 
-onde n indica a posição no vetor do elemento, com n iniciando em 0.
-Ou seja, o elemento em *nome[0]* é o primeiro elemento do vetor. Neste caso o elemento para n=0 é o caractere "P".
+onde n indica a posição no vetor do elemento, com *n* iniciando em 0.
+Ou seja, o elemento em *nome[0]* é o primeiro elemento do vetor. Neste caso o elemento para *n=0* é o caractere "P".
 
 Mais a frente vamos examinar algumas funções que operam sobre variaveis do tipo string.
 
@@ -78,18 +78,19 @@ Exemplos:
 	>>> lista = [2, 1, 3,] # lista de inteiros
 	>>> print(lista)
 	>>> l = [0, "Pedro", "c", True] # Não é obrigado os elementos da lista serem do mesmo tipo.
-	>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas.
+	>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas. Uma lista dentro de outra lista.
 
 ```
+
 **Tuplas**
 
 ```
-	>>> t = (3, 4, 5) # Semelhante a listas (*)
+	>>> t = (3, 4, 5) # Semelhante a listas (1)
 	>>> t = ("oi", 34)
 	>>> print(t[0]) # exibindo o primeiro elemento da tupla.
 ```
 
-(*) Obs.: Tuplas são tipos imutaveis ou seja apos definida uma variavel do tipo tupla seu valor não poderá ser alterado.
+(1) Obs.: Tuplas são tipos imutaveis ou seja apos definida uma variavel do tipo tupla seu valor não poderá ser alterado.
 
 **Dicionários**
 
@@ -119,6 +120,7 @@ Exemplo:
 	2*(4+1)
 
 Isso porque a multiplicação é efetuada primeiro que a soma e a subtração. A divisão também tem precedência maior que a soma e subtração. Essa ordem de execução das operações, como visto acima, pode ser alterada usando-se parenteses.
+
 
 Seu Interpretador Como Calculadora
 ----------------------------------

@@ -1,5 +1,7 @@
 # Tasks
 
+Extração das informações, noticías do site Google News.
+
 ## Tarefas Faltantes
 
 ### Correções

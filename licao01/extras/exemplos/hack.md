@@ -22,7 +22,7 @@ Aqui estaremos usando sistema linux e aplicações presentes em sistemas linux.
 * [Guia Foca Linux (material antigo)](https://guiafoca.org/)
 * [Canal Diolinux](https://www.diolinux.com.br/)
 * [Google](https://www.google.com/)
-* [Slideshare](https://pt.slideshare.net/fernando.palma/apostila-linux-bsico)
+* [Slideshare](https://pt.slideshare.net/fernando.palma/apostila-linux-básico)
 
 ## Combinando Python, grep e less
 
@@ -39,19 +39,20 @@ Script python
 
 no terminal com comando *grep*, *cat* e *less*.
 
+Obs.: No sctipt acima o conteúdo da página é baixo no diretório */tmp* que é um diretório para arquivos temporários.
 
 Obter conteúdo do arquivo criado pelo script python acima.
 ```
 	$ cat /tmp/data
 ```
 
-selecionando partes especificas do texto com grep que contem uma palavra ou que *casam* com a [expressão regular](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular) passada para o grep,
+selecionando partes especificas do texto com **grep** que contem uma palavra ou que *casam* com a [expressão regular](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular) passada para o grep,
 
 ```
 	$ cat /tmp/data | grep "Arte"
 ```
 
-visualizando mais detalhadamente usando less (rolagem pelo conteudo)
+visualizando mais detalhadamente usando **less** (rolagem pelo conteúdo)
 
 ```
 	$ cat /tmp/data | grep "Arte" | less
