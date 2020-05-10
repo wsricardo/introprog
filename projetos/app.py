@@ -53,7 +53,7 @@ def gen_template(content_news, template_full=False):
         page_news = '<ul style="list-style-type: none;">'
         for i in range(size_dnews):
             page_news += """
-            <li> <h4 style="margin: 0; padding: 0;"> {0} </h4>
+            <li> <h4 class="cnewsTitle"> {0} </h4>
             <a style="margin: 0; padding: 0; text-align: center;" href="{1}">{2}</a> </li><br><br><br>
             """.format(
                     dnews[i]['title'],
@@ -62,24 +62,13 @@ def gen_template(content_news, template_full=False):
                     )
         # Fim 'for'
         page_news += '</ul>'
+        webtemplate = open('crawlernews.html', 'r').read()
+        #print(">", webtemplate)
+        #import time
+        #time.sleep(10)
 
-        with open('output2.html', 'w') as fl:
-            fl.write("""
-                    <!DOCTYPE html>
-                    <html>
-                    <head><title>Notícias</title>
-                    <meta name="viewport" content="width=device-width,initial-scale=1">
-                    <meta charset="utf-8">
-                    </head>
-                    <body style="margin: 0; padding: 0;">
-                    <h3 style="background-color: #a1a1e4; position: fixed; top: 0; width: 100%; overflow: hidden; font-weight: bold; font-size: 24pt; padding: 12px; margin: 0; text-align: center;">Portal Notícias</h3>
-                    <div style="padding: 48pt 6pt 6pt 6pt; margin: 0;">
-                     {0}
-                    </div>
-                    </body>
-                    </html>
-
-                    """.format( page_news ) )
+        with open('output3.html', 'w') as fl:
+            fl.write(webtemplate.replace('{newslist}', page_news ) )
             return 1
 
     return """

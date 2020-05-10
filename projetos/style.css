@@ -35,7 +35,32 @@ nav ul li:hover{
 }
 
 
+.search {
+	padding: 2px;
+	margin: 0;
+	text-align: right;
+	color: white
+}
 
+.search input{
+	color: #a1a1ef;
+	margin: 0;
+	padding: 0;
+}
+
+.search button {
+	text-decoration: none;
+	background-color: #64919e;
+	font-weight: bold;
+	border-style: none;
+	color: white;
+	padding: 3px;
+
+}
+
+.search button:hover{
+	background-color: #a1a1ef;
+}
 
 .header {
 	width: 100%;
@@ -51,9 +76,11 @@ nav ul li:hover{
 
 /*Row for content*/
 .content {
-	display: block;
+	display: inline-block;
 	width: 100%;
-	height: 600px;
+	float: left;
+	background-color: white;
+	/*height: 600px;*/
 }
 
 
@@ -62,7 +89,7 @@ nav ul li:hover{
 	float: right;
 	padding: 8px;
 	width: 25%;
-	height: 100%;
+	/*height: 600px;*/
 	background-color: #e0eaf3;
 	
 }
@@ -72,7 +99,7 @@ nav ul li:hover{
 	width: 75%;
 	height: 100%;
 	float: left;
-	padding: 4px;
+	padding: 12px;
 	font-family: Times New Roman, Georgia, serif;
 }
 
@@ -86,6 +113,7 @@ nav ul li:hover{
 /* Element of cnews*/
 .articlenews {
 	margin: 4px;
+	/*width: 30%;*/
 }
 
 
