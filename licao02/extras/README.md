@@ -27,7 +27,7 @@ Exemplo:
 }
 ```
 
-[Detalhes sobre **JSON**](json.org/json-pt.html)
+[Detalhes sobre **JSON**](http://json.org/json-pt.html)
 
 
 ## Arquivos csv
@@ -51,5 +51,3 @@ Exemplos usando recurso como **if..elif..else**, **while** e **for**.
 [Criando Sites 1](https://wsricardo.github.io/introprog/licao02/extras/criandosites1)
 
 [Exemplos de Código Python](https://wsricardo.github.io/introprog/licao02/extras/exemplos)
-
-
