@@ -35,7 +35,7 @@ Exemplo:
 
 Arquivo comum usado em editores de planilhas para criação de tabelas com dados.
 
-O formato usado especificadores de delimitação e especificação de campo como **,** e **"**.
+O formato usado especificadores de delimitação e especificação de campo como **,** e **"** com **"** (vírgulas e aspas duplas respectivamente).
 
 Exemplo:
 
@@ -48,3 +48,9 @@ Exemplo:
 ## Exemplos de Códigos Python
 
 Exemplos usando recurso como **if..elif..else**, **while** e **for**.
+
+[Criando sites 1](https://wsricardo.github.io/introprog/extras/criandosites1)
+
+[Exemplos de Código Python](https://wsricardo.github.io/introprog/extras/exemplos)
+
+

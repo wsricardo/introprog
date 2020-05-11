@@ -228,4 +228,4 @@ Usando as *tabelas* como as acima é possível analisar os resultados das opera�
 
 Próximo [Extras](https://wsricardo.github.io/introprog/licao02/extras)
 
-Inicío [Início](https://wsricardo.github.io)
+Inicío [Início](https://wsricardo.github.io/introprog)
