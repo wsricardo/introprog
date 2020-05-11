@@ -128,11 +128,30 @@ B := idade2 < 18
 |   A or B    |    1      | 
 
 
+da tabela acima observamos o seguinte, que temos um individuo maior de idade e outro menos de idade assim é vedade a afirmação que o individuo tem mais de 18 anos e o outro menos de idade, ou seja, *idade1 > 18* e *idade2 < 18*.
+
+É possível ter condições que envolvem expressões lógicas com mais de um *operador lógico* (*not*, *and* e *or*) que podem ou não ser envolvidos com parenteses.
+
+Exemplos:
+
+```python
+>>> False or True
+... True
+>>> (True and False) or True
+... True
+>>> (True and False) or (False and False)
+... False
+>>> (not True) and True
+... False
+```
+
+
 ## Estruturas de Repetição
 
-Para repetição de trecho de códigos temos a estrutura do **for** e **while** ambos criam loops onde um trecho interno apos o for ou while são executados.
+Para repetição de trecho de códigos temos a estrutura do **for** e **while** ambos criam loops onde um trecho interno apos o **for** ou **while** são executados.
 
 Exemplo básico com *for*
+
 
 ```python
 	>>> for i in range(5):
@@ -189,10 +208,10 @@ Usaremos uma tabela para fazer o *teste de mesa* do código.
 |   4   |  Verdadeiro   |   4    |   10  |
 |   5   |  Verdadeiro   |   5    |   15  |
 |   6   |  Verdadeiro   |   6    |   21  |
-|   7   |  Falso        |   -    |   -   |
+|   7   |  Falso        |   7    |   -   |
 
 
-No passo **6** a variavel **soma** estará armazenando o valor 21 que é o resultado da soma dos inteiros de 1 até 6 desrito no código acima.
+No passo **6** a variável **soma** estará armazenando o valor 21 que é o resultado da soma dos inteiros de 1 até 6 descrito no código acima.
 
 A tabela acima para soma ilustra o processo da execução do loop **while**, que é uma estrutura de repetição assim como o **for**.
 
@@ -203,3 +222,10 @@ Usando as *tabelas* como as acima é possível analisar os resultados das opera�
 [Ler mais sobre fluxo - Seleção](https://panda.ime.usp.br/pensepy/static/pensepy/06-Selecao/selecao.html)
 
 [Ler mais sobre fluxo - Interação](https://panda.ime.usp.br/pensepy/static/pensepy/07-Iteracao/maisiteracao.html)
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+Próximo [Extras](https://wsricardo.github.io/introprog/licao02/extras)
+
+Inicío [Início](https://wsricardo.github.io)
