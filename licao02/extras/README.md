@@ -49,8 +49,8 @@ Exemplo:
 
 Exemplos usando recurso como **if..elif..else**, **while** e **for**.
 
-[Criando sites 1](https://wsricardo.github.io/introprog/extras/criandosites1)
+[Criando Sites 1](https://wsricardo.github.io/introprog/licao02/extras/criandosites1)
 
-[Exemplos de Código Python](https://wsricardo.github.io/introprog/extras/exemplos)
+[Exemplos de Código Python](https://wsricardo.github.io/introprog/licao02/extras/exemplos)
 
 
