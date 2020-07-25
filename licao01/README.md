@@ -48,9 +48,9 @@ print(nome)
 Temos a seguinte saída para o fragmento acima,
 
 ```
-	4.0
-	1
-	PEDRO HENRIQUE
+4.0
+1
+PEDRO HENRIQUE
 ```
 
 A palavra "print" é uma função (veremos mais detalhes em seção sobre funções) que serve a exibir mensagens na tela, neste exemplo os conteúdos das variáveis.
@@ -75,19 +75,19 @@ Exemplos:
 **Listas**
 
 ```
-	>>> lista = [2, 1, 3,] # lista de inteiros
-	>>> print(lista)
-	>>> l = [0, "Pedro", "c", True] # Não é obrigado os elementos da lista serem do mesmo tipo.
-	>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas. Uma lista dentro de outra lista.
+>>> lista = [2, 1, 3,] # lista de inteiros
+>>> print(lista)
+>>> l = [0, "Pedro", "c", True] # Não é obrigado os elementos da lista serem do mesmo tipo.
+>>> l2 = [1, [2 ,3 ,4], [2, 3]] # Pode haver listas e sublistas. Uma lista dentro de outra lista.
 
 ```
 
 **Tuplas**
 
 ```
-	>>> t = (3, 4, 5) # Semelhante a listas (1)
-	>>> t = ("oi", 34)
-	>>> print(t[0]) # exibindo o primeiro elemento da tupla.
+>>> t = (3, 4, 5) # Semelhante a listas (1)
+>>> t = ("oi", 34)
+>>> print(t[0]) # exibindo o primeiro elemento da tupla.
 ```
 
 (1) Obs.: Tuplas são tipos imutaveis ou seja apos definida uma variavel do tipo tupla seu valor não poderá ser alterado.
@@ -95,9 +95,9 @@ Exemplos:
 **Dicionários**
 
 ```
-	>>> dc = {"chave1":"value1", "chave2": "value2"}
-	>>> print(dc["chave2"])
-	value2
+>>> dc = {"chave1":"value1", "chave2": "value2"}
+>>> print(dc["chave2"])
+value2
 ```
 
 Como no exemplo acima a estrutura de um dicionário é criada definindo uma *chave* e um *valor* associado a essa chave.
@@ -128,13 +128,13 @@ Seu Interpretador Como Calculadora
 Usando o linux é possível iniciar o interpretador pelo terminal chamando o programa,
 
 ```
-	$ python
+$ python
 ```
 
 ou
 
 ```
-	$ python3
+$ python3
 ```
 
 No Windows é possível chamar pelo menu iniciar.
