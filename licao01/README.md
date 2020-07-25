@@ -153,6 +153,7 @@ sqrt(4) # raiz quadrada
 
 ```
 [Mais sobre expressões](https://panda.ime.usp.br/cc110/static/cc110/02-expressoes.html)
+
 [Expressõe e tipos básicos](https://docs.python.org/3/tutorial/introduction.html)
 
 Para ver a lista de funções e constantes matemáticas disponiveis no módulo *math* 
