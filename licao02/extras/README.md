@@ -1,8 +1,5 @@
 # Conteúdo Extras
 
-## Criando sites
-
-Mais alguns detalhes sobre HTML e css.
 
 ## Arquivo json
 

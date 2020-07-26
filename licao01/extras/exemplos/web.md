@@ -1,6 +1,6 @@
 # WEB & HTML
 
-Em nossos exemplo quando acessamos páginas da WEB através de nossos códigos obtemos determinados conteúdos especificos que descrevem o visual e funcionalidade de sites. A linguagem usada para construir esses sites chama-se *HTML* que é uma abreviação para expressão inglesa *HyperText Markup Language* que significa *Linguagem de Marcação de Hipertexto*. O *HTML* é uma linguagem de *marcação* a qual é interpretada pelos navegadores. 
+Em nossos exemplos quando acessamos páginas da WEB através de nossos códigos obtemos determinados conteúdos especificos que descrevem o visual e funcionalidade de sites. A linguagem usada para construir esses sites chama-se *HTML* que é uma abreviação para expressão inglesa *HyperText Markup Language* que significa *Linguagem de Marcação de Hipertexto*. O *HTML* é uma linguagem de *marcação* a qual é interpretada pelos navegadores. 
 
 Todo documento *HTML* usa marcadores (do inglês, *tags*) que são palavras entre *parêntes angulares* - sinais *<* e *>* - tais marcadores são usados na formatação do conteúdo e na inserção de funcionalidades e recursos externos que definem o comportamento e o visual da página WEB. Esses recursos podem ser imagens, vídeos, scripts e arquivos CSS. Os dois últimos acrescentam funcionalidades e definem o visual respectivamente. A linguagem usada para os scripts (códigos) é a linguagem *javascript* que acrescenta recursos que podem definir ações e eventos tratados pela página conferindo mais dinamismo na exibição e tratamento do conteúdo. Já com arquivos CSS ( do inglês *Cascading Style Sheets*, folha de estilos) adiciona estilos ao site descrevendo aspectos visuais.
 
@@ -37,13 +37,13 @@ Copie o código acima e salve com a extensão *.html (exemplo.html) e abra com s
 
 Vejamos agora o significado de cada *tag*. A tag principal *html* marca a área do documento e onde todas as demais e o conteúdo serão inseridas. A tag *head* (ou cabeçalho) como nome sugeri delimita a área de recursos e informações sobre a página. Já na tag *body* temos o corpo do documento onde irá o conteúdo presente no site e tags que definirão como este conteúdo será posicionado. 
 
-A tag *h1* especifica uma área de conteúdo destacado e importante, como por exemplo um titulo de uma seção ou artigo. O nível dessa importância em sua variação trás-nos as tags *h2*, *h3*, *h4*, *h5* e *h6*.
+A tag *h1* especifica uma área de conteúdo destacado e importante, como por exemplo um titulo de uma seção ou artigo. O nível dessa importância em sua variação trás-nos as tags *h1*, *h2*, *h3*, *h4*, *h5* e *h6*.
 
-Já com a tag *ul* especificamos a criação de uma lista não-ordenada de elemento onde cada tag *li* define um item dessa lista.
+Já com a tag *ul* especificamos a criação de uma lista não-ordenada de elementos onde cada tag *li* define um item dessa lista.
 
 Com a tag *a* criamos um elemento para *link* que permite redirecionar-nos para outra página da internet ou seção do site. O parâmetro href especifica para onde o link deve apontar.
 
-Devemos notar que de modo geral e exceção de tags como *<br>* necessitamos abrir e fechar a tag. Como visto acima a tag *a* inicia com ```*<a href="https://www.google.com"> e termina com *</a>*```.
+Devemos notar que de modo geral e exceção de tags como *<br>* necessitamos abrir e fechar a tag. Como visto acima a tag *a* inicia com ```*<a href="https://www.google.com">* e termina com *</a>*```.
 
 ## Visual do site com CSS
 
@@ -70,10 +70,6 @@ ul li {
 	display: inline;
 }
 
-ul li a {
-
-
-}
 /*Definindo o estilo para o titulo da seção em destaque "Wellcome".*/
 h1 {
 	font-family: "Arial", sans-serif;
@@ -115,7 +111,7 @@ No caso de o CSS estar em um arquivo externo, tendo salvo o código CSS acima co
 
 ```
 
-O *estilo* (*style*) para o site também pode ser inserida de forma *inline* da seguinte forma,
+O *estilo* (*style*) para o site também pode ser inserida de modo *inline* da seguinte forma,
 
 ```html
 <!DOCTYPE html>
@@ -142,7 +138,7 @@ De modo geral o CSS tem a seguinte forma,
 }
 ```
 
-Onde o *seletor* (*selector* em inglês) o faz referência ao elemnto HTML no qual você deseja definir o estilo, ou seja, aspectos visuais. 
+Onde o *seletor* (*selector* em inglês) faz referência ao elemnto HTML no qual você deseja definir o estilo, ou seja, aspectos visuais. 
 
 E *declaração* inclui as propriedades nas quais serão definidas as caracteriscas visuais através dos valores definidos. Por exemplo para definir a fonte e seu tamanho na tag *h1* fazemos *font-family: arial helvetica sans-serif* e *font-size: 40px* onde definiu-se a familia da fonte e seu tamanho respectivamente.
 
@@ -166,4 +162,5 @@ h1 {
 Mais detalhes sobre o uso do html e css serão mostrados na seções seguintes.
 
 [Conteúdo](https://wsricardo.github.io/introprog)
+
 [Lição 2](https://wsricardo.github.io/introprog/licao02) 

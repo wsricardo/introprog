@@ -28,6 +28,7 @@ Download do interpretador python pode ser feito em [www.python.org](https://www.
 Como usuário root
 
 ```
+	# apt update && apt upgrade
 	# apt install python3
 ```
 

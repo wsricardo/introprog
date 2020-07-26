@@ -11,9 +11,9 @@ Aqui estaremos usando sistema linux e aplicações presentes em sistemas linux.
 ## Usando grep
 
 ```
-	$ echo "Texto texto. Bem vindo a Pernambuco." > /tmp/data
-	$ cat /tmp/data | grep texto
-	$ cat /tmp/data | less
+$ echo "Texto texto. Bem vindo a Pernambuco." > /tmp/data
+$ cat /tmp/data | grep texto
+$ cat /tmp/data | less
 ```
 
 ## Leituras Sobre Linux
@@ -29,12 +29,12 @@ Aqui estaremos usando sistema linux e aplicações presentes em sistemas linux.
 Script python
 
 ```python
-	>>> from bs4 import BeautifulSoup
-	>>> import requests
-	>>> dat = requests.get('https://pt.wikipedia.org/w/index.php?search=Arte&title=Especial%3APesquisar&wprov=acrw1_0')
-	>>> f = open('/tmp/data', 'w')
-	>>> f.write(dat.text)
-	>>> f.close()
+>>> from bs4 import BeautifulSoup
+>>> import requests
+>>> dat = requests.get('https://pt.wikipedia.org/w/index.php?search=Arte&title=Especial%3APesquisar&wprov=acrw1_0')
+>>> f = open('/tmp/data', 'w')
+>>> f.write(dat.text)
+>>> f.close()
 ```
 
 no terminal com comando *grep*, *cat* e *less*.
@@ -43,19 +43,19 @@ Obs.: No sctipt acima o conteúdo da página é baixo no diretório */tmp* que �
 
 Obter conteúdo do arquivo criado pelo script python acima.
 ```
-	$ cat /tmp/data
+$ cat /tmp/data
 ```
 
 selecionando partes especificas do texto com **grep** que contem uma palavra ou que *casam* com a [expressão regular](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular) passada para o grep,
 
 ```
-	$ cat /tmp/data | grep "Arte"
+$ cat /tmp/data | grep "Arte"
 ```
 
 visualizando mais detalhadamente usando **less** (rolagem pelo conteúdo)
 
 ```
-	$ cat /tmp/data | grep "Arte" | less
+$ cat /tmp/data | grep "Arte" | less
 ```
 
 pedaço da saída para comando acima
