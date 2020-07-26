@@ -36,3 +36,5 @@ Como usuário root
 
 * [Pensando Como um Cientista da Computação](https://panda.ime.usp.br/pensepy/static/pensepy/index.html)
 * [Introdução a Computação Com Python](https://panda.ime.usp.br/pensepy/static/pensepy/index.html)
+
+Blog: [WSRicardo](https://wsricardo.blogspot.com)
