@@ -20,8 +20,12 @@ Como vai?	| Eu estou bem obrigado. E você?
 Em csv a tabela acima poderia ficar como se segue
 
 "Entrada"	,	"Saída"
+
 "Oi"	,	"Olá"
+
 Como vai?	,	"Eu estou bem obrigado. E você?"
+
+
 
 A virgula serve para delimitar os campos e as aspas envolvem o valor de cada campo. A quebra de linha ("pulando uma linha") indica-se uma nova linha na tabela. Observe as duas contruções acima.
 
