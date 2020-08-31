@@ -16,7 +16,6 @@ servem a resolução de uma tarefa ou problema.
 * [Lição 2](https://wsricardo.github.io/introprog/licao02)
 * [Lição 3](https://wsricardo.github.io/introprog/licao03)
 * [Lição 4](https://wsricardo.github.io/introprog/licao04)
-* [Lição 5](https://wsricardo.github.io/introprog/licao05)
 
 ## Python 
 
