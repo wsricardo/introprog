@@ -12,10 +12,12 @@ O formato csv seguirá a seguinte definição:
 
 Exemplo:
 
-Entrada | Saída
------------------
-Oi		|	Olá
-Como vai?	| Eu estou bem obrigado. E você?
+|		Entrada | Saída							|
+|-----------------------------------------------|
+|		Oi		|	Olá							|
+|	Como vai?	| Eu estou bem obrigado. E você?|
+
+
 
 Em csv a tabela acima poderia ficar como se segue
 
