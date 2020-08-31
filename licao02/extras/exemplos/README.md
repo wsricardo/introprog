@@ -21,11 +21,13 @@ Exemplo:
 
 Em csv a tabela acima poderia ficar como se segue
 
+```
 "Entrada"	,	"Saída"
 
 "Oi"	,	"Olá"
 
 Como vai?	,	"Eu estou bem obrigado. E você?"
+```
 
 
 
